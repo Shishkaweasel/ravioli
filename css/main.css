@@ -38,7 +38,7 @@ body {
 
 	}
 
-	.navprime ul, .navprime:active ul { 
+	.navprime, .navprime:active { 
 
 		display: none;
 		position: absolute;
