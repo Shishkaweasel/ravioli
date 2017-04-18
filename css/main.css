@@ -16,15 +16,18 @@ body {
     	height: auto;
 	}
 	.content {
-	width: 100%;
+	max-width: 100%;
 	padding-top: 0;
 	padding-bottom:0;
+	height: auto;
 	}
 	.footer {
-	width: 100%;
+	max-width: 100%;
+	height: auto;
 	}
 	.header {
-	width: 100%;
+	max-width: 100%;
+	height: auto;
 	}
 	}
 
