@@ -102,6 +102,8 @@ img {
 	background-color: #edf3f9;
 	flex: 1;
 	width: 1130px;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0px;
 	padding-top: 50px;
 	padding-bottom: 80px;
@@ -121,7 +123,6 @@ img {
 p {
 	font-size: 16px;
 	line-height: 24px;
-	padding: 0 125px;
 	font-family: Verdana, Arial, sans-serif;
 	}
 
