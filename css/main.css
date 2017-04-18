@@ -14,7 +14,7 @@ body {
 	position: static;
 	top: auto;
 	left: auto;
-	width: 100%;
+	width: 300px;
 	margin-left: auto;
 	margin-right: auto;
 	}	
@@ -23,7 +23,7 @@ body {
 	position: static;
 	top: auto;
 	left: auto;
-	width: 100%;
+	width: 300px;
 	}
 
 	.content {
@@ -38,7 +38,7 @@ body {
 	.pipes_gradient {
 	background: #cbe2c1;
 	padding: 20px 0;
-	width: 100%;
+	width: 300px;
 	margin-left: auto;
 	margin-right: auto;
 	}
