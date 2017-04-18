@@ -95,13 +95,7 @@ body {
 		display: block;
 
 	}
-	}
-
-@media (min-width: 992px) {
-	.maximus_hide, .minimus_show { display: none; }
-	}
-
-#tronwrap {
+	#tronwrap {
 
 	float: right;
 	padding: 20px;
@@ -123,6 +117,13 @@ a:hover#tron_icon  {
 	border-radius: 4px 4px 0 0;
 
 }
+	}
+
+@media (min-width: 992px) {
+	.maximus_hide, .minimus_show { display: none; }
+	}
+
+
 
 .header {
 	background-color: #0d1424;
@@ -135,7 +136,7 @@ a:hover#tron_icon  {
 	}
 
 .header_left {
-	font-size: 16px;
+	font-size: 10px;
 	color: #edf3f9;
 	font-weight: bold;
 	float:left;
