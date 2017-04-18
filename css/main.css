@@ -49,10 +49,8 @@ body {
 	padding: 10px
 
 }
-	#navwrap {
-	max-width:100%;
-	}
-	#menu-icon {
+
+	#tron_icon {
 
 		display:inline-block;
 
@@ -111,7 +109,7 @@ body {
 
 }
 
-#menu-icon {
+#tron_icon {
 
 	width: 40px;
 	height: 40px;
@@ -119,7 +117,7 @@ body {
 
 }
 
-a:hover#menu-icon {
+#tron_icon a:hover {
 
 	background-color: #ff0000;
 	border-radius: 4px 4px 0 0;
