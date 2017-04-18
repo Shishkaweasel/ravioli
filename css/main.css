@@ -88,6 +88,10 @@ img {
 	}
 
 .content a {
+	color: #ff0000;
+	}
+
+.content a:hover {
 	color: #6b8cad;
 	}
 
