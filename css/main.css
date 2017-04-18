@@ -117,7 +117,7 @@ body {
 
 }
 
-#tron_icon a:hover {
+a:hover#tron_icon  {
 
 	background-color: #ff0000;
 	border-radius: 4px 4px 0 0;
