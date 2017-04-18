@@ -32,8 +32,11 @@ body {
 	.header {
 	max-width: 100%;
 	}
-	.header-left {
+	.header_left {
 	font-size: 10px;
+	}
+	.header_right {
+	display: none;
 	}
 	
 .navtron {
@@ -121,6 +124,9 @@ a:hover#tron_icon  {
 
 @media (min-width: 992px) {
 	.maximus_hide, .minimus_show { display: none; }
+	.header_left {
+	font-size: 16px;
+	}
 	}
 
 
@@ -136,7 +142,6 @@ a:hover#tron_icon  {
 	}
 
 .header_left {
-	font-size: 10px;
 	color: #edf3f9;
 	font-weight: bold;
 	float:left;
@@ -148,7 +153,7 @@ a:hover#tron_icon  {
 	text-decoration: none;
 	}
 
-#header_right {
+.header_right {
 	font-size: 16px;
 	color: #edf3f9;
 	font-weight: bold;    
@@ -157,7 +162,7 @@ a:hover#tron_icon  {
 	text-align: right;
 	}
     
-#header_right a {
+.header_right a {
 	color: #edf3f9;
 	}
 	
