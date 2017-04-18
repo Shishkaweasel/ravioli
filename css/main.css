@@ -223,7 +223,7 @@ h1 {
     
 #navwrap {
 	width: 1130px;
-	height: 35px; 
+	height: auto; 
 	margin: auto; 
 	z-index: 99;
 	position: relative; 
