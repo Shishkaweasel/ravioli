@@ -58,7 +58,7 @@ body {
 
 	}
 
-	.tronwrap ul, .tronwrap:active ul{ 
+	#tronwrap ul, #tronwrap:active ul{ 
 
 		display: none;
 		position: absolute;
@@ -72,18 +72,18 @@ body {
 
 	}
 	
-	.tronwrap a {
+	#tronwrap a {
 	display: block;
 	text-decoration: none;
 	color: #edf3f9;
 	font-weight: bold;
 	}
 
-	.tronwrap a:hover {
+	#tronwrap a:hover {
 	color: #6b8cad;
 	}
 
-	.tronwrap li {
+	#tronwrap li {
 
 		text-align: center;
 		width: 100%;
@@ -92,7 +92,7 @@ body {
 
 	}
 
-	.tronwrap:hover ul {
+	#tronwrap:hover ul {
 
 		display: block;
 
@@ -103,7 +103,7 @@ body {
 	.maximus_hide, .minimus_show { display: none; }
 	}
 
-.tronwrap {
+#tronwrap {
 
 	float: right;
 	padding: 20px;
