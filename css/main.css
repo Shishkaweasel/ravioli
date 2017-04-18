@@ -80,9 +80,10 @@ body {
 	color: #ffffff;
 	}
 	
-.logo {
-	margin: auto;
-	}
+img {
+    max-width: 100%;
+    height: auto;
+}
     
 .pipes_gradient {
 	background: #cbe2c1;
