@@ -39,8 +39,6 @@ body {
 	}
 
 	.navtron, .navtron:active { 
-
-		display: none;
 		position: absolute;
 		padding: 20px;
 		background: #fff;
