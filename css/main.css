@@ -18,13 +18,13 @@ body {
 	.content {
 	max-width: 100%;
 	height: auto;
-	left: 0;
+	float: left;
 	}
 	p {
-	padding: 0px;
+	padding: 0px 0px;
 	}
 	h1 {
-	padding: 0px;
+	padding: 0px 0px;
 	}
 	.footer {
 	max-width: 100%;
