@@ -38,7 +38,7 @@ body {
 
 	}
 
-	.navprime, .navprime:active { 
+	.navtron, .navtron:active { 
 
 		display: none;
 		position: absolute;
@@ -52,7 +52,7 @@ body {
 
 	}
 
-	.navprime li {
+	.navtron li {
 
 		text-align: center;
 		width: 100%;
@@ -61,7 +61,7 @@ body {
 
 	}
 
-	.navprime:hover ul {
+	.navtron:hover ul {
 
 		display: block;
 
