@@ -38,8 +38,8 @@ body {
 
 	}
 
-	.navtron ul, .navtron:active ul { 
-		list-style: none;
+	nav ul, nav:active ul { 
+
 		display: none;
 		position: absolute;
 		padding: 20px;
@@ -52,7 +52,7 @@ body {
 
 	}
 
-	.navtron li {
+	nav li {
 
 		text-align: center;
 		width: 100%;
@@ -61,7 +61,7 @@ body {
 
 	}
 
-	.navtron:hover ul {
+	nav:hover ul {
 
 		display: block;
 
@@ -72,19 +72,41 @@ body {
 	.maximus_hide, .minimus_show { display: none; }
 	}
 
+nav {
+
+	float: right;
+	padding: 20px;	
+
+}
+
 #menu-icon {
 
 	display: hidden;
 	width: 40px;
 	height: 40px;
-	background: #4C8FEC;
+	background: #4C8FEC url(../img/menu-icon.png) center;
 
 }
 
 a:hover#menu-icon {
 
-	background-color: #ff0000;
+	background-color: #444;
 	border-radius: 4px 4px 0 0;
+
+}
+
+ul {
+
+	list-style: none;
+
+}
+
+li {
+
+	display: inline-block;
+	float: left;
+	padding: 10px
+
 }
 
 .header {
