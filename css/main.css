@@ -61,12 +61,12 @@ body {
 	nav a {
 	display: block;
 	text-decoration: none;
-	color: #ff0000;
+	color: #6b8cad;
 	font-weight: bold;
 	}
 
 	nav a:hover {
-	color: #6b8cad;
+	color: #ff0000;
 	}
 
 	nav li {
