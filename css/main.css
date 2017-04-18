@@ -32,11 +32,60 @@ body {
 	#navwrap {
 	max-width:100%;
 	}
+	#menu-icon {
+
+		display:inline-block;
+
+	}
+
+	.navprime ul, .navprime:active ul { 
+
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+
+	}
+
+	.navprime li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+
+	}
+
+	.navprime:hover ul {
+
+		display: block;
+
+	}
 	}
 
 @media (min-width: 992px) {
 	.maximus_hide, .minimus_show { display: none; }
 	}
+
+#menu-icon {
+
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: #4C8FEC;
+
+}
+
+a:hover#menu-icon {
+
+	background-color: #ff0000;
+	border-radius: 4px 4px 0 0;
+}
 
 .header {
 	background-color: #0d1424;
