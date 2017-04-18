@@ -39,6 +39,7 @@ body {
 	}
 
 	.navtron ul, .navtron:active ul { 
+		list-style: none;
 		display: none;
 		position: absolute;
 		padding: 20px;
