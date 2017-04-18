@@ -44,7 +44,7 @@ body {
 
 	}
 
-	nav ul, nav:active ul{ 
+	.tronwrap ul, .tronwrap:active ul{ 
 
 		display: none;
 		position: absolute;
@@ -58,18 +58,18 @@ body {
 
 	}
 	
-	nav a {
+	.tronwrap a {
 	display: block;
 	text-decoration: none;
 	color: #edf3f9;
 	font-weight: bold;
 	}
 
-	nav a:hover {
+	.tronwrap a:hover {
 	color: #6b8cad;
 	}
 
-	nav li {
+	.tronwrap li {
 
 		text-align: center;
 		width: 100%;
@@ -78,7 +78,7 @@ body {
 
 	}
 
-	nav:hover ul {
+	.tronwrap:hover ul {
 
 		display: block;
 
@@ -89,7 +89,7 @@ body {
 	.maximus_hide, .minimus_show { display: none; }
 	}
 
-nav {
+.tronwrap {
 
 	float: right;
 	padding: 20px;
@@ -112,13 +112,13 @@ a:hover#menu-icon {
 
 }
 
-ul {
+.navtron {
 
 	list-style: none;
 
 }
 
-li {
+.navtron li {
 
 	display: inline-block;
 	float: left;
