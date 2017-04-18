@@ -44,7 +44,7 @@ body {
 
 	}
 
-	.navtron ul, .navtron:active ul { 
+	.navtron, .navtron:active { 
 
 		display: none;
 		position: absolute;
@@ -58,14 +58,14 @@ body {
 
 	}
 	
-	.navtron a {
+	.tronwrap a {
 	display: block;
 	text-decoration: none;
 	color: #edf3f9;
 	font-weight: bold;
 	}
 
-	.navtron a:hover {
+	.tronwrap a:hover {
 	color: #6b8cad;
 	}
 
@@ -78,7 +78,7 @@ body {
 
 	}
 
-	.navtron:hover ul {
+	.navtron:hover {
 
 		display: block;
 
@@ -89,7 +89,7 @@ body {
 	.maximus_hide, .minimus_show { display: none; }
 	}
 
-.navtron {
+.tronwrap {
 
 	float: right;
 	padding: 20px;	
@@ -112,7 +112,7 @@ a:hover#menu-icon {
 
 }
 
-.navtron ul {
+.navtron {
 
 	list-style: none;
 
