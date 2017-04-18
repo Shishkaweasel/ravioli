@@ -9,39 +9,12 @@ body {
 	background-color: #0d1424;
 	}
 
-@media only screen and (max-width:650px) {
-	.header {
-	position: static;
-	top: auto;
-	left: auto;
-	width: 300px;
-	margin-left: auto;
-	margin-right: auto;
-	}	
-	
-	.logo {
-	position: static;
-	top: auto;
-	left: auto;
-	width: 300px;
+@media (max-width: 991px) {
+	.maximus_show, .minimus_hide { display: none; }
 	}
 
-	.content {
-	position: static;
-	top: auto;
-	left: auto;
-	right: auto;
-	margin-top: 10px;
-	margin-left: 5px;
-	}
-	
-	.pipes_gradient {
-	background: #cbe2c1;
-	padding: 20px 0;
-	width: 300px;
-	margin-left: auto;
-	margin-right: auto;
-	}
+@media (min-width: 992px) {
+	.maximus_hide, .minimus_show { display: none; }
 	}
 
 .header {
