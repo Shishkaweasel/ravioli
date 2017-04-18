@@ -21,10 +21,10 @@ body {
 	float: left;
 	}
 	p {
-	padding: 0px 0px;
+	padding: 0px 15%;
 	}
 	h1 {
-	padding: 0px 0px;
+	padding: 0px 15%;
 	}
 	.footer {
 	max-width: 100%;
@@ -121,13 +121,14 @@ img {
 	}
 
 p {
+	padding: 0 15%;
 	font-size: 16px;
 	line-height: 24px;
 	font-family: Verdana, Arial, sans-serif;
 	}
 
 h1 {
-	padding: 0 125px;
+	padding: 0 15%;
 	font-size: 32px;
 	font-weight: bold;
 	color: #6b8cad;
