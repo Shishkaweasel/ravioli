@@ -147,7 +147,7 @@ a:hover#tron_icon  {
 	text-decoration: none;
 	}
 
-.header_right {
+#header_right {
 	font-size: 16px;
 	color: #edf3f9;
 	font-weight: bold;    
