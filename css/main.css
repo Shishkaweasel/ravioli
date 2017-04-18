@@ -35,6 +35,20 @@ body {
 	.header-left {
 	font-size: 10px;
 	}
+	
+.navtron {
+
+	list-style: none;
+
+}
+
+.navtron li {
+
+	display: inline-block;
+	float: left;
+	padding: 10px
+
+}
 	#navwrap {
 	max-width:100%;
 	}
@@ -109,20 +123,6 @@ a:hover#menu-icon {
 
 	background-color: #ff0000;
 	border-radius: 4px 4px 0 0;
-
-}
-
-.navtron {
-
-	list-style: none;
-
-}
-
-.navtron li {
-
-	display: inline-block;
-	float: left;
-	padding: 10px
 
 }
 
