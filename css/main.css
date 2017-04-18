@@ -54,14 +54,23 @@ body {
 	padding: 10px
 
 }
+#tron_icon {
+	display: inline-block;
+	float: right;
+	width: 40px;
+	height: 40px;
+	background: #0d1424;
 
-	#tron_icon {
+}
 
-		display:inline-block;
+a:hover#tron_icon  {
 
-	}
+	background-color: #ff0000;
+	border-radius: 4px 4px 0 0;
 
-	#tronwrap ul, #tronwrap:active ul{ 
+}
+	
+#tronwrap ul, #tronwrap:active ul { 
 
 		display: none;
 		position: absolute;
@@ -107,22 +116,8 @@ body {
 	font-family: Georgia, Times New Roman, sans-serif;
 
 }
-
-#tron_icon {
-	float: right;
-	width: 40px;
-	height: 40px;
-	background: #0d1424;
-
-}
-
-a:hover#tron_icon  {
-
-	background-color: #ff0000;
-	border-radius: 4px 4px 0 0;
-
-}
 	}
+
 
 @media (min-width: 992px) {
 	.maximus_hide, .minimus_show { display: none; }
