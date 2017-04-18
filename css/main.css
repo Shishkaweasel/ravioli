@@ -44,7 +44,7 @@ body {
 
 	}
 
-	nav ul, nav:active ul { 
+	.navtron ul, .navtron:active ul { 
 
 		display: none;
 		position: absolute;
@@ -58,18 +58,18 @@ body {
 
 	}
 	
-	nav a {
+	.navtron a {
 	display: block;
 	text-decoration: none;
 	color: #edf3f9;
 	font-weight: bold;
 	}
 
-	nav a:hover {
+	.navtron a:hover {
 	color: #6b8cad;
 	}
 
-	nav li {
+	.navtron li {
 
 		text-align: center;
 		width: 100%;
@@ -78,7 +78,7 @@ body {
 
 	}
 
-	nav:hover ul {
+	.navtron:hover ul {
 
 		display: block;
 
@@ -89,7 +89,7 @@ body {
 	.maximus_hide, .minimus_show { display: none; }
 	}
 
-nav {
+.navtron {
 
 	float: right;
 	padding: 20px;	
@@ -112,13 +112,13 @@ a:hover#menu-icon {
 
 }
 
-ul {
+.navtron ul {
 
 	list-style: none;
 
 }
 
-li {
+.navtron li {
 
 	display: inline-block;
 	float: left;
