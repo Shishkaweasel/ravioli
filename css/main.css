@@ -66,7 +66,6 @@ body {
 a:hover#tron_icon  {
 
 	background-color: #ff0000;
-	border-radius: 4px 4px 0 0;
 
 }
 	
@@ -112,7 +111,6 @@ a:hover#tron_icon  {
 	#tronwrap {
 
 	float: right;
-	padding: 20px;
 	font-family: Georgia, Times New Roman, sans-serif;
 
 }
