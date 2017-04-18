@@ -49,13 +49,24 @@ body {
 		display: none;
 		position: absolute;
 		padding: 20px;
-		background: #fff;
+		background: #edf3f9;
 		border: 5px solid #444;
 		right: 20px;
 		top: 60px;
 		width: 50%;
 		border-radius: 4px 0 4px 4px;
 
+	}
+	
+	nav a {
+	display: block;
+	text-decoration: none;
+	color: #ff0000;
+	font-weight: bold;
+	}
+
+	nav a:hover {
+	color: #6b8cad;
 	}
 
 	nav li {
