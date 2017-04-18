@@ -13,11 +13,9 @@ body {
 	.maximus_show, .minimus_hide { display: none; }
 	.pipes_gradient {
 	max-width: 100%;
-    	height: auto;
 	}
 	.content {
 	max-width: 100%;
-	height: auto;
 	}
 	p {
 	padding: 0px 15%;
@@ -30,7 +28,6 @@ body {
 	}
 	.header {
 	max-width: 100%;
-	height: auto;
 	}
 	}
 
