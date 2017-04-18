@@ -26,8 +26,14 @@ body {
 	.footer {
 	max-width: 100%;
 	}
+	.footer-center {
+	font-size: 6px;
+	}
 	.header {
 	max-width: 100%;
+	}
+	.header-left {
+	font-size: 10px;
 	}
 	#navwrap {
 	max-width:100%;
