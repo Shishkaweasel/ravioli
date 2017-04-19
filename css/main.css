@@ -19,12 +19,9 @@ body {
 	}
 	p {
 	padding: 0 5%;			
-	font-size: 16px;
-	line-height: 24px;
 	}
 	h1 {
 	padding: 0 5%;
-	font-size: 32px;
 	}
 	.footer {
 	max-width: 100%;
@@ -138,14 +135,11 @@ a:hover#tron_icon  {
 	}
 	
 	p {	
-		padding: 0 15%;
-	font-size: 16px;
-	line-height: 24px;
+	padding: 0 15%;
 	}
 	
 	h1 {
-			padding: 0 15%;
-	font-size: 32px;
+	padding: 0 15%;
 	}
 
 	}
@@ -229,11 +223,13 @@ a:hover#tron_icon  {
 	}
 
 p {
+	font-size: 16px;
+	line-height: 24px;
 	font-family: Verdana, Arial, sans-serif;
 	}
 
 h1 {
-
+	font-size: 32px;
 	font-weight: bold;
 	color: #6b8cad;
 	font-family: Georgia, Arial, sans-serif;
