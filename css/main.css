@@ -286,3 +286,8 @@ h1 {
 	color: #edf3f9;
 	text-align: center;
 	}
+
+.about_badges {
+  float: right;
+  vertical-align: middle;
+}
