@@ -115,8 +115,7 @@ a:hover#tron_icon  {
 	font-family: Georgia, Times New Roman, sans-serif;
 }
 	.about_badges {
-  float: right;
-  vertical-align: middle;
+	margin:auto;
 }
 	}
 
@@ -131,9 +130,11 @@ a:hover#tron_icon  {
 	.footer_center {
 	font-size: 10px;
 	}
-	.about_badges {
-	margin:auto;
+		.about_badges {
+  float: right;
+  vertical-align: middle;
 }
+
 	}
 
 
