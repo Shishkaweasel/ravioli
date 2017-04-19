@@ -18,10 +18,14 @@ body {
 	max-width: 100%;
 	}
 	p {
-	padding: 0px;
+	padding: 0px;			
+	font-size: 16px;
+	line-height: 24px;
 	}
 	h1 {
 	padding: 0px;
+			font-size: 32px;
+	line-height: 24px;
 	}
 	.footer {
 	max-width: 100%;
@@ -127,7 +131,23 @@ a:hover#tron_icon  {
 	.footer_center {
 	font-size: 10px;
 	}
-
+	.content {
+		padding: 0px;
+	padding-top: 50px;
+	padding-bottom: 80px;
+			width: 1130px;
+	}
+	
+	p {	
+		padding: 0 15%;
+	font-size: 16px;
+	line-height: 24px;
+	}
+	
+	h1 {
+			padding: 0 15%;
+	font-size: 32px;
+	}
 
 	}
 
@@ -192,12 +212,10 @@ a:hover#tron_icon  {
 .content {
 	background-color: #edf3f9;
 	flex: 1;
-	width: 1130px;
+
 	margin-left: auto;
 	margin-right: auto;
-	padding: 0px;
-	padding-top: 50px;
-	padding-bottom: 80px;
+
 	-webkit-box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
 	-moz-box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
 	box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
@@ -212,15 +230,11 @@ a:hover#tron_icon  {
 	}
 
 p {
-	padding: 0 15%;
-	font-size: 16px;
-	line-height: 24px;
 	font-family: Verdana, Arial, sans-serif;
 	}
 
 h1 {
-	padding: 0 15%;
-	font-size: 32px;
+
 	font-weight: bold;
 	color: #6b8cad;
 	font-family: Georgia, Arial, sans-serif;
