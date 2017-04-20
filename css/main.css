@@ -309,7 +309,9 @@ h1 {
 	}
 
 .about_badge_wrap_mini {
+		background-color: #edf3f9;
 	text-align: center;
+	height: auto;
 		max-width: 100%;
 		margin-left: auto;
 	margin-right: auto;
@@ -320,6 +322,8 @@ h1 {
 }
 
 .about_badge_wrap_mighty {
+	height: auto;
+		background-color: #edf3f9;
 	text-align: center;
 		padding-top: 50px;
 	padding-bottom: 80px;
