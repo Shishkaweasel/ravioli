@@ -303,6 +303,9 @@ h1 {
 	text-align: center;
 	}
 
+.about_badge_wrap {
+	text-align: center;
+}
 		#about_badges {
     display: inline-block;
     margin-left: auto;
