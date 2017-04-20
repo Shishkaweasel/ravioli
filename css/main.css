@@ -133,6 +133,7 @@ a:hover#tron_icon  {
 	.content {
 		padding: 0px;
 	padding-top: 50px;
+	padding-bottom: 180px;
 			width: 1130px;
 	}
 	
@@ -316,7 +317,7 @@ h1 {
 	height: auto;
 
 
-		padding: 10 5%;
+		padding: 10px 5%;
 
 
 }
@@ -332,10 +333,9 @@ h1 {
 .about_badge_wrap_mighty {
 	height: auto;
 	text-align: center;
-			padding: 0 20%;
+	padding: 20px;
+	padding: 0 20%;
 
-	padding-top: 20;
-	padding-bottom: 40px;
 
 		
 }
