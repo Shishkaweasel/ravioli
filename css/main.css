@@ -332,7 +332,10 @@ h1 {
 .about_badge_wrap_mighty {
 	height: auto;
 	text-align: center;
-		padding: 20 20%;
+			padding: 0 20%;
+
+	padding-top: 20;
+	padding-bottom: 40px;
 
 		
 }
