@@ -18,12 +18,11 @@ body {
 	max-width: 100%;
 	}
 	p {
-	font-size: 14px;
+	font-size: 16px;
 	padding: 0 5%;			
 	}
 	h1 {
-		font-size: 28px;
-	padding: 0 5%;
+		font-size: 32px;
 	}
 	.footer {
 	max-width: 100%;
