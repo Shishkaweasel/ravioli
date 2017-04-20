@@ -114,6 +114,9 @@ a:hover#tron_icon  {
 	font-size: 12px;
 	font-family: Georgia, Times New Roman, sans-serif;
 }
+	.about_badge_wrap_mighty {
+	display: none;
+}
 	}
 
 
@@ -147,6 +150,10 @@ a:hover#tron_icon  {
 	h1 {
 	padding: 0 15%;
 	}
+	
+	.about_badge_wrap_mini {
+	display: none;
+}
 
 	}
 
@@ -303,10 +310,15 @@ h1 {
 	text-align: center;
 	}
 
-.about_badge_wrap {
+.about_badge_wrap_mini {
 	text-align: center;
 }
-		#about_badges {
+
+.about_badge_wrap_mighty {
+	text-align: center;
+}
+
+.about_badges {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
