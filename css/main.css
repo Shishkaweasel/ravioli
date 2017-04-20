@@ -327,6 +327,12 @@ h1 {
 
 
 
+.about_badge_wrap_mini img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .about_badge_wrap_mighty {
 	height: auto;
 		background-color: #edf3f9;
@@ -341,8 +347,3 @@ h1 {
 		
 }
 
-.about_badges {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-}
