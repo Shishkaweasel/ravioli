@@ -310,11 +310,25 @@ h1 {
 
 .about_badge_wrap_mini {
 	text-align: center;
+		max-width: 100%;
+		margin-left: auto;
+	margin-right: auto;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
+	box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
 
 }
 
 .about_badge_wrap_mighty {
 	text-align: center;
+		padding-top: 50px;
+	padding-bottom: 80px;
+			width: 1130px;
+		margin-left: auto;
+	margin-right: auto;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
+	box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
 		
 }
 
