@@ -300,4 +300,5 @@ h1 {
 		.about_badges {
   float: right;
   vertical-align: middle;
+  padding: 0 20px;
 }
