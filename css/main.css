@@ -23,6 +23,7 @@ body {
 	}
 	h1 {
 		font-size: 32px;
+	padding: 0 5%;
 	}
 	.footer {
 	max-width: 100%;
