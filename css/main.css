@@ -140,12 +140,7 @@ a:hover#tron_icon  {
 	padding: 0 15%;
 	}
 	
-	p img {
-		  float: right;
-  vertical-align: middle;
-  padding: 0 20px;
-	}
-	
+
 	h1 {
 	padding: 0 15%;
 	}
@@ -239,6 +234,11 @@ p {
 	font-size: 16px;
 	line-height: 24px;
 	font-family: Verdana, Arial, sans-serif;
+	}
+	p img {
+		  float: right;
+  vertical-align: middle;
+  padding: 0 20px;
 	}
 
 h1 {
@@ -347,3 +347,7 @@ h1 {
 		
 }
 
+
+.about_badge_wrap_mighty img {
+float: left;
+}
