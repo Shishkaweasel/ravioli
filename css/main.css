@@ -304,7 +304,6 @@ h1 {
 	}
 
 		#about_badges {
-  float: right;
-  vertical-align: middle;
+ margin: auto;
   padding: 0 20px;
 }
