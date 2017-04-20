@@ -18,11 +18,9 @@ body {
 	max-width: 100%;
 	}
 	p {
-	font-size: 16px;
 	padding: 0 5%;			
 	}
 	h1 {
-		font-size: 32px;
 	padding: 0 5%;
 	}
 	.footer {
@@ -140,7 +138,6 @@ a:hover#tron_icon  {
 	
 	p {	
 	padding: 0 15%;
-		font-size: 16px;
 	}
 	
 	p img {
@@ -151,7 +148,6 @@ a:hover#tron_icon  {
 	
 	h1 {
 	padding: 0 15%;
-		font-size: 32px;
 	}
 	
 	.about_badge_wrap_mini {
@@ -240,12 +236,13 @@ a:hover#tron_icon  {
 	}
 
 p {
-
+	font-size: 16px;
 	line-height: 24px;
 	font-family: Verdana, Arial, sans-serif;
 	}
 
 h1 {
+	font-size: 32px;
 	font-weight: bold;
 	color: #6b8cad;
 	font-family: Georgia, Arial, sans-serif;
