@@ -297,7 +297,7 @@ h1 {
 	text-align: center;
 	}
 
-		.about_badges {
+		#about_badges {
   float: right;
   vertical-align: middle;
   padding: 0 20px;
