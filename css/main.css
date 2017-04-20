@@ -218,10 +218,8 @@ a:hover#tron_icon  {
 .content {
 	background-color: #edf3f9;
 	flex: 1;
-
 	margin-left: auto;
 	margin-right: auto;
-
 	-webkit-box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
 	-moz-box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
 	box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
@@ -313,11 +311,21 @@ h1 {
 .about_badge_wrap_mini {
 	text-align: center;
 		background-color: #edf3f9;
+		margin-left: auto;
+	margin-right: auto;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
+	box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
 }
 
 .about_badge_wrap_mighty {
 	text-align: center;
 		background-color: #edf3f9;
+		margin-left: auto;
+	margin-right: auto;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
+	box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
 }
 
 .about_badges {
