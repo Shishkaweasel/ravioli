@@ -161,6 +161,8 @@ a:hover#tron_icon  {
 	.services_logo {
 	padding: 20px 15%;
 	}
+	.services_logo img {
+	padding 10px 0;
 	}
 
 
