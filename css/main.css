@@ -347,8 +347,6 @@ h1 {
 	text-align: center;
 	padding: 20px 20%;
 
-
-		
 }
 
 
@@ -363,4 +361,7 @@ float: left;
 	margin: 0;
 	font-family: Verdana, Arial, sans-serif;}
 
-	
+.required:after { 
+	color: #ff0000;
+	content:" *"; 
+}
