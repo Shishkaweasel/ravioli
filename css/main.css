@@ -123,6 +123,9 @@ a:hover#tron_icon  {
 	padding: 10px 10%;
 	text-align: center;
 	}
+	#rungwrap {
+	padding: 0 5%;
+	}
 	}
 
 
@@ -162,7 +165,9 @@ a:hover#tron_icon  {
 	padding: 40px 15%;
 	text-align: center;
 	}
-
+	#rungwrap {
+	padding: 0 15%;
+	}
 	}
 
 
@@ -249,6 +254,7 @@ p {
 	line-height: 24px;
 	font-family: Verdana, Arial, sans-serif;
 	}
+
 	p img {
 		  float: right;
   vertical-align: middle;
@@ -364,4 +370,9 @@ float: left;
 .required:after { 
 	color: #ff0000;
 	content:" *"; 
+}
+
+#rungwrap {
+	font-size: 16;
+	font-family: Verdana, Arial, sans-serif;
 }
