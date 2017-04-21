@@ -119,6 +119,9 @@ a:hover#tron_icon  {
 	.about_badge_wrap_mighty {
 	display: none;
 }
+	.services_logo {
+	padding: 10px 5%;
+	}
 	}
 
 
@@ -153,6 +156,9 @@ a:hover#tron_icon  {
 }
 	.services_list {
 		    padding: 0 15%;
+	}
+	.services_logo {
+	padding: 20px 20%;
 	}
 	}
 
@@ -316,7 +322,6 @@ h1 {
 	}
 
 .about_badge_wrap_mini {
-		background-color: #edf3f9;
 	text-align: center;
 	height: auto;
 
@@ -337,8 +342,7 @@ h1 {
 .about_badge_wrap_mighty {
 	height: auto;
 	text-align: center;
-	padding: 20px;
-	padding: 0 20%;
+	padding: 20px 20%;
 
 
 		
@@ -355,3 +359,5 @@ float: left;
 	 list-style-position: inside;
 	margin: 0;
 	font-family: Verdana, Arial, sans-serif;}
+
+	
