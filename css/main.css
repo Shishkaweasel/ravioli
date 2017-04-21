@@ -350,7 +350,8 @@ float: left;
 }
 
 .services_list {
-	list-style-type: square;
+	list-style-image: url('images/spark.png');
+	list-style-type: circle;
 	 list-style-position: inside;
 	margin: 0;
 	font-family: Verdana, Arial, sans-serif;}
