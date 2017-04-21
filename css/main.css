@@ -355,7 +355,7 @@ float: left;
 
 .services_list {
 
-	list-style-image: url("images/Spark.png");
+	list-style-image: url("/images/Spark.png");
 	 list-style-position: inside;
 	margin: 0;
 	font-family: Verdana, Arial, sans-serif;}
