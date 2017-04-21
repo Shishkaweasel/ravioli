@@ -40,7 +40,9 @@ body {
 	.header_right {
 	display: none;
 	}
-	
+		.services_list {
+		    padding: 0 5%;
+	}
 .navtron {
 
 	list-style: none;
@@ -149,7 +151,9 @@ a:hover#tron_icon  {
 	.about_badge_wrap_mini {
 	display: none;
 }
-
+	.services_list {
+		    padding: 0 15%;
+	}
 	}
 
 
@@ -348,5 +352,4 @@ float: left;
 .services_list {
 	list-style-type: square;
 	margin: 0;
-    padding: 0;
 	font-family: Verdana, Arial, sans-serif;}
