@@ -72,35 +72,47 @@
 <div class="content">
 <h1>Contact Us</h1>
 
-<form action="http://www.premierroofing.ca/forms/pr_contact.php" method="post" enctype="multipart/form-data" name="pr_contact" id="pr_contact">
-        Name:<br>
-  <label>
-  <input name="name" id="name" type="text">
-  </label>
+<form action="http://www.premierroofing.ca/forms/pr_contact.php" method="post" enctype="multipart/form-data">
+        First Name:<br>
+  <div class="required">
+	  <label>
+  <input name="firstname" type="text" required>
+	  </label></div>
   <br>
+	Last Name:<br>
+	<div class="required">
+  <label>
+  <input name="lastname" type="text" required>
+  </label>
+	</div>
+	<br>
         Email Address:<br>
+	<div class="required">
   <label>
-  <input name="email" id="email" type="text">
-  <br>
+  <input name="email" type="email" required>
   </label>
-        Street Address:<br>
+	</div>
+	<br>
+        Phone Number:<br>
+	<div class="required">
+  <label>
+  <input name="phone" id="phone" type="tel" required>
+  </label>
+	</div>
+  <br>
+        Street Address (optional):<br>
   <label>
   <input name="address" id="address" type="text">
   </label>
   <br>
-        City:<br>
+        City (optional):<br>
   <label>
   <input name="city" id="city" type="text">
   </label>
   <br>
-        Phone Number:<br>
-  <label>
-  <input name="phone" id="phone" type="text">
-  </label>
-  <br>
         Comments (optional):<br>
   <label>
-  <textarea name="comments" id="comments"></textarea>
+  <textarea name="comments"></textarea>
   </label>
   <p>
     <label>
@@ -111,10 +123,7 @@
     </form>
     
     
-    <form action="/action_page.php">
-  Username: <input type="text" name="usrname" required>
-  <input type="submit">
-</form>
+    
 <div class="required">
     <label>Name:</label>
     <input type="text">
