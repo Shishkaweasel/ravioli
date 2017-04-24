@@ -11,7 +11,7 @@ body {
 
 /* Mobile Phones */
 @media (max-width: 599px) {
-	.maximus_show, .minimus_hide { display: none; }
+	.maximus_show, .medius_show, .minimus_hide { display: none; }
 	.pipes_gradient {
 	max-width: 100%;
 	}
@@ -133,7 +133,7 @@ body {
 
 /* Tablets */
 @media (min-width: 600px) and (max-width: 1020px) {
-	.maximus_show, .minimus_hide { display: none; }
+	.maximus_show, .medius_show, .minimus_hide, { display: none; }
 	.pipes_gradient {
 	max-width: 100%;
 	}
@@ -253,7 +253,7 @@ a:hover#tron_icon  {
 
 /* Tablet Landscape */
 @media (min-width: 1021px) and (max-width: 1281px) {
-	.maximus_show, .minimus_hide { display: none; }
+	.maximus_show, .medius_hide, .minimus_show { display: none; }
 	.pipes_gradient {
 	max-width: 100%;
 	}
@@ -304,7 +304,7 @@ a:hover#tron_icon  {
 
 /* Desktop */
 @media (min-width: 1281px) {
-	.maximus_hide, .minimus_show { display: none; }
+	.maximus_hide, .medius_show, .minimus_show { display: none; }
 	.header_left {
 	font-size: 16px;
 	width: 33.3%;
