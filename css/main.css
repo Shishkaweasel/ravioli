@@ -330,11 +330,10 @@ body {
 	
 	#navwrap {
 	max-width: 100%
+	font-size: 14px;
 	}
 	
-	.navprime li {
-	width: 150px;
-	}
+
 }
 
 /* Desktop */
@@ -384,9 +383,7 @@ body {
 	padding: 0 15%;
 	}
 	
-	.navprime li {
-	width: 200px;
-	}
+
 }
 
 
@@ -503,7 +500,7 @@ h1 {
 .navprime li {
 	position: relative;
 	display: inline-block;
-
+	width: 200px;
 	line-height: 35px;
 	background: #0d1424;
 	} 
