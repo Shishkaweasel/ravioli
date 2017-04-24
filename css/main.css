@@ -11,6 +11,7 @@ body {
 	    -ms-flex-direction: column;             
 	        flex-direction: column;
 	background-color: #0d1424;
+	min-height: 100%
 	}
 
 
