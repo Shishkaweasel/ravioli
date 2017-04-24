@@ -304,6 +304,9 @@ a:hover#tron_icon  {
 	#navwrap {
 	max-width: 100%
 	}
+	.navprime li {
+	width: auto;
+	}
 }
 
 /* Desktop */
