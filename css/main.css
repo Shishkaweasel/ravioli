@@ -333,6 +333,13 @@ body {
 	font-size: 12px;
 	}
 	
+	.navprime li {
+	width: 150px;
+	}
+	
+	.navprime li ul {
+	margin-left: -120px;
+	}	
 
 }
 
@@ -383,7 +390,13 @@ body {
 	padding: 0 15%;
 	}
 	
-
+	.navprime li {
+	width: 200px;
+	}
+	
+	.navprime li ul {
+	margin-left: -140px;
+	}
 }
 
 
@@ -520,7 +533,6 @@ h1 {
 	position: absolute;
 	top: 100%;
 	left: 50%;
-	margin-left: -140px;
 	display:none;
 	}
 
