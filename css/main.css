@@ -133,7 +133,7 @@ body {
 
 /* Tablets */
 @media only screen and (min-width: 600px) and (max-width: 1020px) {
-	.maximus_show, .medius_show, .minimus_hide, { display: none; }
+	.maximus_show, .medius_show, .minimus_hide { display: none; }
 	.pipes_gradient {
 	max-width: 100%;
 	}
