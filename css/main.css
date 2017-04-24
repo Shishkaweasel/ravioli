@@ -265,7 +265,7 @@ a:hover#tron_icon  {
 		padding: 0px;
 	padding-top: 50px;
 	padding-bottom: 180px;
-	max-width: 100%;
+	min-width: 100%;
 	}
 	}
 	p {
