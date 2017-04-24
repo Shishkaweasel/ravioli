@@ -510,7 +510,7 @@ h1 {
 	text-align: center;
 	}
 
-.navprime li {
+.navprime > li {
 	position: relative;
 	display: block;
 	line-height: 35px;
@@ -534,7 +534,7 @@ h1 {
 	display:none;
 	}
 
-.navprime li:hover ul {
+.navprime > li:hover ul {
 	display:block;
 	}
 	
