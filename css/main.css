@@ -390,13 +390,7 @@ body {
 	padding: 0 15%;
 	}
 	
-	.navprime li {
-	width: 200px;
-	}
-	
-	.navprime li ul {
-	margin-left: -140px;
-	}
+
 }
 
 
@@ -514,11 +508,12 @@ h1 {
 .navprime > li {
 	position: relative;
 	display: block;
-	line-height: 35px;
 	background: #0d1424;
-	margin: 10px;
+	margin: 0px 10px;
+	width: 200px;
 	} 
-
+        #nav > li { list-style-type:none; float:left; display:block; margin:0px 10px; 
+                    position:relative; padding:10px; width:100px;}
 .navprime a {
 	display: block;
 	text-decoration: none;
