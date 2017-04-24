@@ -10,6 +10,7 @@ body {
   	display: -webkit-flex;     
   	display: flex;             
 	flex-direction: column;
+	flex-wrap: none;
 	background-color: #0d1424;
 	}
 
