@@ -333,8 +333,7 @@ body {
 	}
 	
 	.navprime li {
-	width: auto;
-	padding: 0 5%;
+	width: 150px;
 	}
 }
 
@@ -383,6 +382,10 @@ body {
 	
 	#rungwrap {
 	padding: 0 15%;
+	}
+	
+	.navprime li {
+	width: 200px;
 	}
 }
 
