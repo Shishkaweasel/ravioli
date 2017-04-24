@@ -3,10 +3,13 @@ html {
 	}
 
 body {
-	display: -webkit-flex; /* Safari */
-        -webkit-flex-direction: column; /* Safari 6.1+ */
+    	display: -webkit-box;
+    	display: -ms-flexbox;
     	display: flex;             
-	flex-direction: column;
+	-webkit-box-orient: vertical;             
+	-webkit-box-direction: normal;             
+	    -ms-flex-direction: column;             
+	        flex-direction: column;
 	background-color: #0d1424;
 	}
 
@@ -433,19 +436,17 @@ body {
 	width: 1250px;
 	margin-left: auto;
 	margin-right: auto;
-	background: -webkit-linear-gradient(to right, rgb(47, 82, 103, 0), #2f5267 25%, rgb(237, 243, 249, 0));
-	background: -moz-linear-gradient(to right, rgb(47, 82, 103, 0), #2f5267 25%, rgb(237, 243, 249, 0));
+	background: -webkit-linear-gradient(left, rgb(47, 82, 103, 0), #2f5267 25%, rgb(237, 243, 249, 0));
 	background: linear-gradient(to right, rgb(47, 82, 103, 0), #2f5267 25%, rgb(237, 243, 249, 0));
 	}
    
 .content {
 	background-color: #edf3f9;
-	-webkit-flex: 1;
-  	flex: 1;
+  	-webkit-box-flex: 1;
+  	    -ms-flex: 1;
+  	        flex: 1;
 	margin-left: auto;
 	margin-right: auto;
-	-webkit-box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
-	-moz-box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
 	box-shadow: 0px 0px 20px 0px rgba(237,243,249,1);
 	}
 
