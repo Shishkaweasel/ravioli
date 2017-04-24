@@ -508,6 +508,7 @@ h1 {
 	padding: 0;
 	list-style: none;
 	text-align: center;
+	display: block;
 	}
 
 .navprime > li {
@@ -515,6 +516,7 @@ h1 {
 	display: block;
 	line-height: 35px;
 	background: #0d1424;
+	margin: 10px;
 	} 
 
 .navprime a {
@@ -537,7 +539,9 @@ h1 {
 .navprime > li:hover ul {
 	display:block;
 	}
-	
+.navprime li ul li {
+	margin:10px 0 0 0;
+}
 .footer {
 	background-color: #0d1424;
 	width: 1130px;
