@@ -10,7 +10,7 @@ body {
 	}
 
 /* Mobile Phones */
-@media (max-width: 599px) {
+@media only screen and (max-width: 599px) {
 	.maximus_show, .medius_show, .minimus_hide { display: none; }
 	.pipes_gradient {
 	max-width: 100%;
@@ -132,7 +132,7 @@ body {
 }
 
 /* Tablets */
-@media (min-width: 600px) and (max-width: 1020px) {
+@media only screen and (min-width: 600px) and (max-width: 1020px) {
 	.maximus_show, .medius_show, .minimus_hide, { display: none; }
 	.pipes_gradient {
 	max-width: 100%;
@@ -252,7 +252,7 @@ a:hover#tron_icon  {
 	}
 
 /* Tablet Landscape */
-@media (min-width: 1021px) and (max-width: 1281px) {
+@media only screen and (min-width: 1021px) and (max-width: 1281px) {
 	.maximus_show, .medius_hide, .minimus_show { display: none; }
 	.pipes_gradient {
 	max-width: 100%;
