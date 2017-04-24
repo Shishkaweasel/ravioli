@@ -515,7 +515,6 @@ h1 {
 	} 
 
 .navprime a {
-	display: block;
 	text-decoration: none;
 	color: #edf3f9;
 	font-weight: bold;
@@ -534,6 +533,7 @@ h1 {
 .navprime > li:hover ul {
 	display:block;
 	}
+
 .navprime li ul li {
 	margin:10px 0 0 0;
 }
