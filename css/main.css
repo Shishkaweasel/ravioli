@@ -585,7 +585,7 @@ h1 {
 float: left;
 }
 
-.services_list {
+.bullet_time {
 
 	list-style-image: url("../images/Spark.png");
 	 list-style-position: inside;
