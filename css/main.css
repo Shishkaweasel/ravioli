@@ -510,11 +510,14 @@ h1 {
 	float: left;
 	display: block;
 	background: #0d1424;
-	margin: 0px 10px;
-	width: 200px;
+
+	width: 226px;
 	} 
 
 .navprime a {
+	display: block;
+	margin: 5px;
+	padding: 5px;
 	text-decoration: none;
 	color: #edf3f9;
 	font-weight: bold;
@@ -525,6 +528,7 @@ h1 {
 	}
 
 .navprime li ul {
+	list-style: none;
 	margin: 0px;
 	padding: 0px;
 	display:none;
@@ -597,3 +601,4 @@ float: left;
 	font-size: 16;
 	font-family: Verdana, Arial, sans-serif;
 }
+
