@@ -512,7 +512,7 @@ h1 {
 
 .navprime li {
 	position: relative;
-	display: inline-block;
+	display: block;
 	line-height: 35px;
 	background: #0d1424;
 	} 
@@ -529,9 +529,8 @@ h1 {
 	}
 
 .navprime li ul {
-	position: absolute;
-	top: 100%;
-	left: 50%;
+	margin: 0px;
+	padding: 0px;
 	display:none;
 	}
 
