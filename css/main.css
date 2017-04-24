@@ -1012,9 +1012,9 @@ float: left;
   	        flex: 1;
 	margin-left: auto;
 	margin-right: auto;
-	-webkit-box-shadow: inset 0px 0px 20px 0px rgba(237,243,249,1);
-	-moz-box-shadow: inset 0px 0px 20px 0px rgba(237,243,249,1);
-	box-shadow: inset 0px 0px 20px 0px rgba(237,243,249,1);
+-webkit-box-shadow: inset 0px 0px 20px 10px rgba(13,20,36,0.61);
+-moz-box-shadow: inset 0px 0px 20px 10px rgba(13,20,36,0.61);
+box-shadow: inset 0px 0px 20px 10px rgba(13,20,36,0.61);
 	}
 
 .content a {
