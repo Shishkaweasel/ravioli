@@ -332,6 +332,9 @@ body {
 	max-width: 100%;
 	font-size: 12px;
 	}
+	.navprime > li {
+		width: 150px;
+	}
 	
 
 }
@@ -381,6 +384,9 @@ body {
 	
 	#rungwrap {
 	padding: 0 15%;
+	}
+	.navprime > li {
+		width: 226px;
 	}
 	
 
@@ -505,8 +511,6 @@ h1 {
 	float: left;
 	display: block;
 	background: #0d1424;
-
-	width: 226px;
 	} 
 
 .navprime a {
