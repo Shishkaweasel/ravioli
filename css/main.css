@@ -541,8 +541,7 @@ h1 {
 	margin:10px 0 0 0;
 }
 .footer {
-   position:absolute;
-   bottom:0;
+	flex: 2;
 	background-color: #0d1424;
 	width: 1130px;
 	padding: 10px 0;
