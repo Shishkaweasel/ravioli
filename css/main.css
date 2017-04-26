@@ -62,67 +62,6 @@ body {
 	padding: 0 5%;
 	}
 	
-	.navtron {
-	list-style: none;
-	}
-
-	.navtron li {
-	display: inline-block;
-	float: left;
-	padding: 10px
-	}
-	
-	#tron_icon {
-	display: inline-block;
-	float: right;
-	width: 40px;
-	height: 40px;
-	background: #0d1424;
-	}
-
-	a:hover#tron_icon  {
-	background-color: #ff0000;
-	}
-	
-	#tronwrap ul, #tronwrap:active ul { 
-	display: none;
-	position: absolute;
-	padding: 10px;
-	background: #0d1424;
-	border: 5px solid #edf3f9;
-	right: 20px;
-	top: 60px;
-	width: 50%;
-	border-radius: 4px;
-	}
-	
-	#tronwrap a {
-	display: block;
-	text-decoration: none;
-	color: #edf3f9;
-	font-weight: bold;
-	}
-
-	#tronwrap a:hover {
-	color: #6b8cad;
-	}
-
-	#tronwrap li {
-	text-align: center;
-	width: 100%;
-	padding: 10px 0;
-	margin: 0;
-	}
-
-	#tronwrap:hover ul {
-	display: block;
-	}
-
-	#tronwrap {
-	float: right;
-	font-size: 12px;
-	font-family: Georgia, Times New Roman, sans-serif;
-	}
 	
 	.about_badge_wrap_mighty {
 	display: none;
@@ -188,69 +127,6 @@ body {
 	padding: 0 5%;
 	}
 	
-	.navtron {
-	list-style: none;
-	}
-
-	.navtron li {
-	display: inline-block;
-	float: left;
-	padding: 10px
-	}
-
-	#tron_icon {
-	display: inline-block;
-	float: right;
-	width: 40px;
-	height: 40px;
-	background: #0d1424;
-	}
-
-	a:hover#tron_icon  {
-	background-color: #ff0000;
-	}
-	
-	#tronwrap ul, #tronwrap:active ul { 
-	display: none;
-	position: absolute;
-	padding: 10px;
-	background: #0d1424;
-	border: 5px solid #edf3f9;
-	right: 20px;
-	top: 60px;
-	width: 50%;
-	border-radius: 4px;
-	}
-	
-	#tronwrap a {
-	display: block;
-	text-decoration: none;
-	color: #edf3f9;
-	font-weight: bold;
-	}
-
-	#tronwrap a:hover {
-	color: #6b8cad;
-	}
-
-	#tronwrap li {
-
-	text-align: center;
-	width: 100%;
-	padding: 10px 0;
-	margin: 0;
-	}
-
-	#tronwrap:hover ul {
-	display: block;
-	}
-
-	#tronwrap {
-	float: right;
-	font-size: 12px;
-	font-family: Georgia, Times New Roman, sans-serif;
-	}
-	
 	.about_badge_wrap_mighty {
 	display: none;
 	}
@@ -263,9 +139,8 @@ body {
 	#rungwrap {
 	padding: 0 5%;
 	}
-	
-}
 
+}
 /* Tablet Landscape */
 @media only screen and (min-width: 1021px) and (max-width: 1281px) {
 	.maximus_show, .medius_hide, .minimus_show { 
@@ -556,6 +431,69 @@ h3 {
 .navprime li ul li {
 	margin:10px 0 0 0;
 }
+
+.navtron {
+	list-style: none;
+	}
+
+	.navtron li {
+	display: inline-block;
+	float: left;
+	padding: 10px
+	}
+
+	#tron_icon {
+	display: inline-block;
+	float: right;
+	width: 40px;
+	height: 40px;
+	background: #0d1424;
+	}
+
+	a:hover#tron_icon  {
+	background-color: #ff0000;
+	}
+	
+	#tronwrap ul, #tronwrap:active ul { 
+	display: none;
+	position: absolute;
+	padding: 10px;
+	background: #0d1424;
+	border: 5px solid #edf3f9;
+	right: 20px;
+	top: 60px;
+	width: 50%;
+	border-radius: 4px;
+	}
+	
+	#tronwrap a {
+	display: block;
+	text-decoration: none;
+	color: #edf3f9;
+	font-weight: bold;
+	}
+
+	#tronwrap a:hover {
+	color: #6b8cad;
+	}
+
+	#tronwrap li {
+
+	text-align: center;
+	width: 100%;
+	padding: 10px 0;
+	margin: 0;
+	}
+
+	#tronwrap:hover ul {
+	display: block;
+	}
+
+	#tronwrap {
+	float: right;
+	font-size: 12px;
+	font-family: Georgia, Times New Roman, sans-serif;
+	}
 .footer {
 	background-color: #0d1424;
 	width: 1130px;
