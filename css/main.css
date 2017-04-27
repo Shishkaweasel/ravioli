@@ -545,12 +545,11 @@ padding: 0;
 	height: auto;
 	text-align: center;
 	padding: 20px 20%;
-
 }
-
-
 .about_badge_wrap_mighty img {
-float: left;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bullet_time {
