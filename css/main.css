@@ -75,14 +75,6 @@ body {
 	padding: 0 5%;
 	}
 	
-	.zoombox a {
-	color: #0d1424;
-	}
-	
-	.zoombox a:hover {
-	color: #edf3f9;
-	}
-	
 }
 
 /* Tablets */
@@ -147,14 +139,6 @@ body {
 	padding: 0 5%;
 	}
 	
-	.zoombox a {
-	color: #0d1424;
-	}
-	
-	.zoombox a:hover {
-	color: #edf3f9;
-}
-
 }
 /* Tablet Landscape */
 @media only screen and (min-width: 1021px) and (max-width: 1281px) {
@@ -227,15 +211,6 @@ body {
 		width: 160px;
 	}
 	
-	.zoombox a {
-	color: #edf3f9;
-	}
-	
-	.zoombox a:hover {
-	color: #6b8cad;
-	}
-	
-
 }
 
 /* Desktop */
@@ -290,14 +265,7 @@ body {
 	.navprime > li {
 		width: 188px;
 	}
-	
-	.zoombox a {
-	color: #edf3f9;
-	}
-	
-	.zoombox a:hover {
-	color: #6b8cad;
-	}
+
 	
 
 }
@@ -637,8 +605,15 @@ opacity: 1 !important;
 
 .zoombox:target img {
 opacity: 1;
-
 }
+
+	.zoombox a {
+	color: #edf3f9;
+	}
+	
+	.zoombox a:hover {
+	color: #6b8cad;
+	}
 
 .zoom_button {
 color: #edf3f9;
