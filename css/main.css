@@ -589,10 +589,10 @@ padding: 0;
 	opacity: 0;
 	}
 .zoombox a {
-	color: #edf3f9;
+	color: #6b8cad;
 }
 .zoombox a:hover {
-	color: #6b8cad;
+	color: #edf3f9;
 }
 
 .zoombox img {
@@ -619,8 +619,8 @@ transition: opacity 0.5s;
 .zoom_button {
 color: #edf3f9;
 padding: 5px 15px;
-background-color: #000000;
-text-decoration: none;
+
+	text-decoration: none;
 cursor: pointer;
 vertical-align: middle;
 position: absolute;
