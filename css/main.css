@@ -634,9 +634,6 @@ position: absolute;
 padding: 10px 15px;
 right: 5%;
 top: 5%;
-color: #fafafa;
-background-color: #ff0000;
 text-decoration: none;
 }
 
-.zoom_close:hover { background-color: #ff0000; }
