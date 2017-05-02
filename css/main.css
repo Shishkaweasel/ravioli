@@ -625,6 +625,7 @@ z-index: 99;
 .zoom_next { right: 15%; }
 .zoom_close {
 position: absolute;
+padding: 10px 15px;
 right: 5%;
 top: 5%;
 color: #fafafa;
