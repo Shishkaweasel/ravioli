@@ -612,6 +612,7 @@ transition: opacity 0.5s;
 
 .zoom_button {
 color: #fafafa;
+padding: 5px 15px;
 background-color: #333;
 text-decoration: none;
 cursor: pointer;
