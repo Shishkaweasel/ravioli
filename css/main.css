@@ -611,9 +611,9 @@ transition: opacity 0.5s;
 }
 
 .zoom_button {
-color: #fafafa;
+color: #edf3f9;
 padding: 5px 15px;
-background-color: #333;
+background-color: #0d1424;
 text-decoration: none;
 cursor: pointer;
 vertical-align: middle;
@@ -622,7 +622,6 @@ top: 45%;
 z-index: 99;
 }
 
-.zoom_button:hover { background-color: #111; }
 .zoom_prev { left: 15%; }
 .zoom_next { right: 15%; }
 .zoom_close {
@@ -635,4 +634,4 @@ background-color: #92001d;
 text-decoration: none;
 }
 
-.zoom_close:hover { background-color: #740404; }
+.zoom_close:hover { background-color: #ff0000; }
