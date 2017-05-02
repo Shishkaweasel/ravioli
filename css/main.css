@@ -588,6 +588,12 @@ padding: 0;
 	background: rgba(0, 0, 0, 0.8);
 	opacity: 0;
 	}
+.zoombox a {
+	color: #edf3f9;
+}
+.zoombox a:hover {
+	color: #edf3f9;
+}
 
 .zoombox img {
 	max-width: 90%;
