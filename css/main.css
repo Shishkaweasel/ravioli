@@ -232,7 +232,7 @@ body {
 	padding: 0px;
 	padding-top: 50px;
 	padding-bottom: 180px;
-	width: 65%;
+	width: 1130px;
 	}
 	
 	p {	
@@ -275,7 +275,7 @@ body {
 .header {
 	background-color: #0d1424;
 	color: #edf3f9;
-	width: 65%;
+	width: 1130px;
 	padding: 10px 0;
 	margin-left: auto;
 	margin-right: auto;
@@ -320,7 +320,7 @@ body {
 .pipes_gradient {
 	background: #6b8cad;
 	padding: 30px 0;
-	width: 75%;
+	width: 1280px;
 	margin-left: auto;
 	margin-right: auto;
 	background: -webkit-linear-gradient(left, rgb(47, 82, 103, 0), #2f5267 25%, rgb(237, 243, 249, 0));
