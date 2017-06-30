@@ -408,16 +408,24 @@ h3 {
 	background: #0d1424;
 	} 
 
-.navprime a {
+.navlink {
 	display: block;
 	text-decoration: none;
 	color: #edf3f9;
 	font-weight: bold;
-	padding: 3px;
+	padding: 5px;
 	}
 
-.navprime a:hover {
+.navlink:hover {
 	background-color: #ff0000;
+	}
+
+.navnolink {
+	display: block;
+	text-decoration: none;
+	color: #edf3f9;
+	font-weight: bold;
+	padding: 5px;
 	}
 
 .navprime li ul {
