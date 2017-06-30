@@ -384,7 +384,6 @@ h3 {
 #navwrap {
 	width: 1130px;
 	height: 40px; 
-	margin: auto; 
 	z-index: 99;
 	position: relative; 
 	background-color: #0d1424;
@@ -392,6 +391,8 @@ h3 {
 		color: #edf3f9;
 	font-weight: bold;
 		padding: 5px;
+		margin: 5px;
+
 	}
   
 .navprime {
@@ -411,19 +412,10 @@ h3 {
 
 .navprime a {
 	display: block;
-	margin: 5px;
-	padding: 5px;
 	text-decoration: none;
 	color: #edf3f9;
 	font-weight: bold;
 	}
-.navprime p {
-	display: block;
-	margin: 5px;
-	padding: 5px;
-	color: #edf3f9;
-	font-weight: bold;
-}
 
 .navprime a:hover {
 	background-color: #ff0000;
