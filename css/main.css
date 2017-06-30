@@ -388,10 +388,7 @@ h3 {
 	position: relative; 
 	background-color: #0d1424;
 	font-family: Georgia, Times New Roman, sans-serif;
-		color: #edf3f9;
-	font-weight: bold;
-		padding: 5px;
-		margin: auto;
+	margin: auto;
 
 	}
   
@@ -401,6 +398,10 @@ h3 {
 	list-style: none;
 	text-align: center;
 	display: block;
+			color: #edf3f9;
+	font-weight: bold;
+		padding: 5px;
+	margin: 5px;
 	}
 
 .navprime > li {
