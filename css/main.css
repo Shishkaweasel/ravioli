@@ -398,9 +398,8 @@ h3 {
 	list-style: none;
 	text-align: center;
 	display: block;
-			color: #edf3f9;
+	color: #edf3f9;
 	font-weight: bold;
-padding: 11px 1px;
 margin: auto;
 	}
 
@@ -416,7 +415,14 @@ margin: auto;
 	text-decoration: none;
 	color: #edf3f9;
 	font-weight: bold;
+	padding: 5px;
 	}
+
+.navprime p {
+	color: #edf3f9;
+	font-weight: bold;
+	padding: 5px;
+}
 
 .navprime a:hover {
 	background-color: #ff0000;
