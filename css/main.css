@@ -699,10 +699,7 @@ text-decoration: none;
   font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
 }
 
-.popup .content {
-  max-height: 400px;
-  overflow: auto;
-}
+
 .popup p {
   margin: 0 0 1em;
 }
