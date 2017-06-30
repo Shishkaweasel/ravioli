@@ -583,7 +583,9 @@ padding: 0;
 }
 
 .thumbnail {
-	max-width: 150px;
+	max-width: 100px;
+	max-height: 100px;
+	overflow: hidden;
 	border-radius: 20px;
 	}
 
