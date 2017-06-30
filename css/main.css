@@ -669,6 +669,7 @@ text-decoration: none;
   transition: opacity 200ms;
   visibility: hidden;
   opacity: 0;
+	height:100%;
 }
 
 .overlay .cancel {
@@ -684,27 +685,12 @@ text-decoration: none;
 }
 
 .popup {
-  margin: 75px auto;
   padding: 20px;
   background: #fff;
   border: 1px solid #666;
-  width: 300px;
+  width: auto;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   position: relative;
-}
-
-.popup h2 {
-  margin-top: 0;
-  color: #666;
-  font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
-}
-
-
-.popup p {
-  margin: 0 0 1em;
-}
-.popup p:last-child {
-  margin: 0;
 }
 
 .butt {
