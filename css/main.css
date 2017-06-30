@@ -414,6 +414,13 @@ h3 {
 	color: #edf3f9;
 	font-weight: bold;
 	}
+.navprime p {
+	display: block;
+	margin: 5px;
+	padding: 5px;
+	color: #edf3f9;
+	font-weight: bold;
+}
 
 .navprime a:hover {
 	background-color: #ff0000;
