@@ -398,7 +398,7 @@ h3 {
 	display: block;
 	color: #edf3f9;
 	font-weight: bold;
-	margin: auto;
+	margin: 3px 0px;
 	}
 
 .navprime > li {
@@ -413,7 +413,7 @@ h3 {
 	text-decoration: none;
 	color: #edf3f9;
 	font-weight: bold;
-	padding: 11px 1px;
+	padding: 3px;
 	}
 
 .navprime a:hover {
