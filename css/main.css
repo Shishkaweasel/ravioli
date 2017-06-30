@@ -478,7 +478,7 @@ input[type=checkbox]:checked ~ .navtron{
 	border: 5px solid #edf3f9;
 	right: 20px;
 	top: 60px;
-	width: 50%;
+	width: 75%;
 	border-radius: 4px;
 	}
 
