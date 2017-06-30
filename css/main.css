@@ -414,11 +414,11 @@ h3 {
 .navprime a {
 	display: block;
 	text-decoration: none;
+	color: #edf3f9;
 	}
 
 .navprime a:hover {
 	background-color: #ff0000;
-	padding: 5px;
 	}
 
 .navprime li ul {
