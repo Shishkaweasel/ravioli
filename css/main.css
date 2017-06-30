@@ -383,7 +383,7 @@ h3 {
     
 #navwrap {
 	width: 1130px;
-	height: 40px; 
+	height: 30px; 
 	z-index: 99;
 	position: relative; 
 	background-color: #0d1424;
@@ -413,7 +413,7 @@ h3 {
 	text-decoration: none;
 	color: #edf3f9;
 	font-weight: bold;
-	padding: 5px;
+	padding: 11px 1px;
 	}
 
 .navprime a:hover {
