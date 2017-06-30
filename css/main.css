@@ -574,6 +574,7 @@ padding: 0;
 
 .thumbnail {
 	max-width: 100%;
+	border-radius: 20px;
 	}
 
 .zoombox {
