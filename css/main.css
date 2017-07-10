@@ -74,10 +74,9 @@ body {
 	#rungwrap {
 	padding: 0 5%;
 	}
-	
 }
 
-/* Tablets */
+/* Tablets in Portrait */
 @media only screen and (min-width: 600px) and (max-width: 1020px) {
 	.maximus_show, .medius_show, .minimus_hide { 
 	display: none; 
@@ -138,9 +137,9 @@ body {
 	#rungwrap {
 	padding: 0 5%;
 	}
-	
 }
-/* Tablet Landscape */
+
+/* Tablets in Landscape */
 @media only screen and (min-width: 1021px) and (max-width: 1281px) {
 	.maximus_show, .medius_hide, .minimus_show { 
 	display: none; 
@@ -208,12 +207,11 @@ body {
 	font-size: 12px;
 	}
 	.navprime > li {
-		width: 160px;
+	width: 160px;
 	}
-	
 }
 
-/* Desktop */
+/* Desktops */
 @media (min-width: 1281px) {
 	.maximus_hide, .medius_show, .minimus_show { 
 	display: none; 
@@ -263,14 +261,9 @@ body {
 	font-size: 14px;
 	}
 	.navprime > li {
-		width: 188px;
+	width: 188px;
 	}
-
-	
-
 }
-
-
 
 .header {
 	background-color: #0d1424;
@@ -282,6 +275,7 @@ body {
 	font-family: Georgia, Arial, sans-serif;
 	}
 
+/* for email and phone */
 .header_left {
 	color: #edf3f9;
 	font-weight: bold;
@@ -293,6 +287,7 @@ body {
 	text-decoration: none;
 	}
 
+/* language setting */
 .header_right {
 	font-size: 16px;
 	color: #edf3f9;
@@ -306,6 +301,7 @@ body {
 	color: #edf3f9;
 	}
 
+/* for main image */
 .logowrap {
 	margin: auto;
 }
@@ -317,6 +313,7 @@ body {
 	margin-right: auto;
 }
 
+/* for gradient separators */
 .pipes_gradient {
 	background: #6b8cad;
 	padding: 30px 0;
@@ -330,13 +327,13 @@ body {
 .content {
 	background-color: #edf3f9;
   	-webkit-box-flex: 1;
-  	    -ms-flex: 1;
-  	        flex: 1;
+  	-ms-flex: 1;
+  	flex: 1;
 	margin-left: auto;
 	margin-right: auto;
--webkit-box-shadow: inset 0px 0px 20px 10px rgba(13,20,36,0.61);
--moz-box-shadow: inset 0px 0px 20px 10px rgba(13,20,36,0.61);
-box-shadow: inset 0px 0px 20px 10px rgba(13,20,36,0.61);
+	-webkit-box-shadow: inset 0px 0px 20px 10px rgba(13,20,36,0.61);
+	-moz-box-shadow: inset 0px 0px 20px 10px rgba(13,20,36,0.61);
+	box-shadow: inset 0px 0px 20px 10px rgba(13,20,36,0.61);
 	}
 
 .content a {
@@ -353,10 +350,10 @@ p {
 	font-family: Verdana, Arial, sans-serif;
 	}
 
-	p img {
-		  float: right;
-  vertical-align: middle;
-  padding: 0 20px;
+p img {
+	float: right;
+	vertical-align: middle;
+	padding: 0 20px;
 	}
 
 h1 {
@@ -380,7 +377,8 @@ h3 {
 	color: #0d1424;
 	font-family: Georgia, Arial, sans-serif;
 	}
-    
+
+/* wrapper for navigation bar */    
 #navwrap {
 	width: 1130px;
 	height: 30px; 
@@ -389,9 +387,9 @@ h3 {
 	background-color: #0d1424;
 	font-family: Georgia, Times New Roman, sans-serif;
 	margin: auto;
-
 	}
-  
+
+/* regular navigation bar */  
 .navprime {
 	list-style: none;
 	text-align: center;
@@ -402,32 +400,13 @@ h3 {
 	padding: 1px;
 	}
 
+/* for dropdown */
 .navprime > li {
 	position: relative;
 	float: left;
 	display: block;
 	background: #0d1424;
 	} 
-
-.navlink {
-	display: block;
-	text-decoration: none;
-	color: #edf3f9;
-	font-weight: bold;
-	padding: 6px;
-	}
-
-.navlink:hover {
-	background-color: #ff0000;
-	}
-
-.navnolink {
-	display: block;
-	text-decoration: none;
-	color: #edf3f9;
-	font-weight: bold;
-	padding: 6px;
-	}
 
 .navprime li ul {
 	list-style: none;
@@ -444,39 +423,61 @@ h3 {
 	margin:10px 0 0 0;
 }
 
+/* for links in the dropdown */
+.navlink {
+	display: block;
+	text-decoration: none;
+	color: #edf3f9;
+	font-weight: bold;
+	padding: 6px;
+	}
+
+.navlink:hover {
+	background-color: #ff0000;
+	}
+
+/* for the dummy links */
+.navnolink {
+	display: block;
+	text-decoration: none;
+	color: #edf3f9;
+	font-weight: bold;
+	padding: 6px;
+	}
+
+/* this section for toggling mobile dropdown */
 input[type=checkbox] {
-display:none;
-}
- input[type=checkbox] + label
-{
-  float: right;
-background: url("https://shishkaweasel.github.io/ravioli/images/tron_icon.png") no-repeat;
-height: 40px;
-width: 40px;
-display:inline-block;
-padding: 0 0 0 0px;
-}
-input[type=checkbox]:checked + label
-{
-  float: right;
-background: url("https://shishkaweasel.github.io/ravioli/images/tron_icon.png") no-repeat;
-height: 40px;
-width: 40px;
-display:inline-block;
-padding: 0 0 0 0px;
+	display:none;
 }
 
-/*Hide checkbox*/
+input[type=checkbox] + label {
+	float: right;
+	background: url("https://shishkaweasel.github.io/ravioli/images/tron_icon.png") no-repeat;
+	height: 40px;
+	width: 40px;
+	display:inline-block;
+	padding: 0 0 0 0px;
+}
+
+input[type=checkbox]:checked + label {
+	float: right;
+	background: url("https://shishkaweasel.github.io/ravioli/images/tron_icon.png") no-repeat;
+	height: 40px;
+	width: 40px;
+	display:inline-block;
+	padding: 0 0 0 0px;
+}
+
 input[type=checkbox]{
-    display: none;
+	display: none;
 }
 
-/*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ .navtron{
-    display: block;
+/*show menu when clicked */
+input[type=checkbox]:checked ~ .navtron {
+	display: block;
 }
 
-
+/* mobile navigation bar */
 .navtron {
   	font-size: 12px;
 	font-family: Georgia, Times New Roman, sans-serif;
@@ -496,31 +497,30 @@ input[type=checkbox]:checked ~ .navtron{
 	float: left;
 	text-align: center;
 	width: 100%;
-
 	}
 
 .navtron a {
-  display: block;
+	display: block;
 	text-decoration: none;
 	color: #edf3f9;
 	font-weight: bold;
-  padding: 10px 0px;
+	padding: 10px 0px;
 	}
   
-  .navtron a:hover {
+.navtron a:hover {
 	color: red;
 	}
   
 .navtron li ul {
-  background-color: #edf3f9;
-  width: 100%;
+	background-color: #edf3f9;
+	width: 100%;
 	list-style: none;
-padding: 0;
-
+	padding: 0;
 	display:none;
 	}
- .navtron li ul a {
-     color: #0d1424;
+
+.navtron li ul a {
+	color: #0d1424;
  }
 
 .navtron li:hover ul {
@@ -541,59 +541,67 @@ padding: 0;
 	text-align: center;
 	}
 
+/* styling icons on mobile about page */
 .about_badge_wrap_mini {
 	text-align: center;
 	height: auto;
-		padding: 10px 5%;
+	padding: 10px 5%;
 }
 
 .about_badge_wrap_mini img {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+ 	display: inline-block;
+ 	margin-left: auto;
+ 	margin-right: auto;
 }
 
+/* styling icons on desktop about page */
 .about_badge_wrap_mighty {
 	height: auto;
 	text-align: center;
 	padding: 20px 20%;
 }
+
 .about_badge_wrap_mighty img {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+	display: inline-block;
+	margin-left: auto;
+ 	margin-right: auto;
 }
 
+/* styling bullet appearance */
 .bullet_time {
-
 	list-style-image: url("../images/Spark.png");
-	 list-style-position: inside;
+	list-style-position: inside;
 	margin: 0;
-	font-family: Verdana, Arial, sans-serif;}
+	font-family: Verdana, Arial, sans-serif;
+}
 
 .required:after { 
 	color: #ff0000;
 	content:" *"; 
 }
 
+/* wrapper for contact us boxes */
 #rungwrap {
 	font-size: 16;
 	font-family: Verdana, Arial, sans-serif;
 	text-align: center;
 }
 
+/* for resizing and styling images when small versions aren't available */
 .thumbnail {
 	max-width: 100px;
 	max-height: 100px;
 	overflow: hidden;
 	border-radius: 20px;
-	}
+}
 
+/* for styling of images */
 .fullsize {
 	max-width: 100%;
 	border-radius: 20px;
 }
 
+/* this section for lightbox on gallery pages */
 .zoombox {
 	position: fixed;
 	text-align: center;
@@ -604,8 +612,7 @@ padding: 0;
 	left: 0;
 	background: rgba(0, 0, 0, 0.8);
 	opacity: 0;
-	}
-
+}
 
 .zoombox img {
 	max-width: 90%;
@@ -614,48 +621,54 @@ padding: 0;
 	opacity: 0;
 	border: 2px solid #edf3f9;
 	border-radius: 20px;
-	}
+}
 
 .zoombox:target {
-outline: none;
-width: 100%;
-height: 100%;
-opacity: 1 !important;
+	outline: none;
+	width: 100%;
+	height: 100%;
+	opacity: 1 !important;
 }
 
 .zoombox:target img {
-opacity: 1;
+	opacity: 1;
 }
 
-	.zoombox a {
+.zoombox a {
 	color: #edf3f9;
-	}
+}
 	
-	.zoombox a:hover {
+.zoombox a:hover {
 	color: #6b8cad;
-	}
+}
 
 .zoom_button {
-color: #edf3f9;
-padding: 5px 15px;
-text-decoration: none;
-cursor: pointer;
-vertical-align: middle;
-position: absolute;
-top: 45%;
-z-index: 99;
-	  border: 1px solid #edf3f9;
-  background-color: #0d1424;
+	color: #edf3f9;
+	padding: 5px 15px;
+	text-decoration: none;
+	cursor: pointer;
+	vertical-align: middle;
+	position: absolute;
+	top: 45%;
+	z-index: 99;
+	border: 1px solid #edf3f9;
+	background-color: #0d1424;
 }
 
-.zoom_prev { left: 15%; }
-.zoom_next { right: 15%; }
+.zoom_prev {
+	left: 15%;
+}
+
+.zoom_next {
+	right: 15%;
+}
+
 .zoom_close {
-position: absolute;
-padding: 10px 15px;
-right: 5%;
-top: 5%;
-text-decoration: none;
-  border: 1px solid #edf3f9;
-  background-color: #0d1424;
+	position: absolute;
+	padding: 10px 15px;
+	right: 5%;
+	top: 5%;
+	text-decoration: none;
+	border: 1px solid #edf3f9;
+	background-color: #0d1424;
 }
