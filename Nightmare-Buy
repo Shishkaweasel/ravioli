@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CJ's Local Farm</title>
+<link href="buy.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<center><img src="images/Banner.png" alt="CJ's Local Farm Banner"></center>
+			<nav>
+				<ul>
+				
+				<center>
+					<a href="index.html">HOME</a>
+					<a href="aboutus.html">ABOUT US</a>
+					<a href="buy.html">BUY</a>
+				</center>
+				</ul>
+			</nav>
+	</header>
+	
+	<main>
+		<div class="box">
+			<h1><center>Our Vegetables are always <b>Fresh</b>, Or your money back</center></h1>
+
+			<p><center><img src="images/radish.png" alt="rad" width="404" height="800">
+			<img src="images/turnip.png" alt="turn" width="404" height="800"></center></p>
+			<p><center><img src="images/spinach.png" alt="sp" width="404" height="800"></center></p>
+
+<!--
+			<h2>Vegetables Available</h2>
+			<h3>Turnips</h3>
+			<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Turnip_2622027.jpg/320px-Turnip_2622027.jpg"></p>
+			<p>Turnips are high in vitamin C, and turnip greens contain vitamin A, folate, vitamin C, vitamin K and calcium.  Source: <a href="https://en.wikipedia.org/wiki/Turnip">Wikipedia</a></p>
+
+			<h3>Radishes</h3>
+			<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Radish_3371103037_4ab07db0bf_o.jpg/180px-Radish_3371103037_4ab07db0bf_o.jpg"></p>
+			<p>Radishes contain a moderate amount of vitamin C.  Source: <a href="https://en.wikipedia.org/wiki/Radish">Wikipedia</a></p>
+
+			<h3>Spinach</h3>
+			<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Spinacia_oleracea_Spinazie_bloeiend.jpg/184px-Spinacia_oleracea_Spinazie_bloeiend.jpg"></p>
+			<p>Spinach is high in vitamin A, vitamin C, vitamin K, magnesium, manganese, iron and folate.  Source: <a href="https://en.wikipedia.org/wiki/Spinach">Wikipedia</a></p>
+-->
+
+			<h2>Ready to order?</h2>
+			<h3>Enter your information below and we'll contact you to complete the order.</h3>
+			<form name="veg-order" action="purchased.php" method="post">
+				<label for="cust_name">Name:</label><br />
+				<input type="text" name="cust_name" pattern="^\p{L}[\p{L}\s'.-]+$" title="Enter a valid name" maxlength="40" required /><br />
+				<label for="vegetable">Vegetable:</label><br />
+				<select name="vegetable" id="vegetable" required>
+				  <option value="turnip">Turnips</option>
+				  <option value="radish">Radishes</option>
+				  <option value="spinach">Spinach</option>
+				</select>
+				<br />
+				<label for="order_count">Number:</label><br />
+				<input type="text" name="order_count" pattern="^\d+$" title="Number of vegetables" maxlength="5" required /><br />
+				<label for="email">Email address:</label><br />
+				<input type="text" name="email" pattern="^[0-9\p{L}]+@[0-9\p{L}]+[\.]{1}[0-9\p{L}]+[\.]?[0-9\p{L}]+$" title="Properly formatted email address required" maxlength="40" required /> <br />
+				<input type="submit" value="Submit" />
+			</form>
+		</div>
+
+	</main>
+	
+<footer>
+	<center>Here at Cj's we strive for perfection, because <i>good isn't good enough</i>.
+	<pre class="tab"> Phone:(813)555-5555 &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Address:123 Main St. Tampa FL 33663&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; Open every Saturday</pre></center>
+</footer>	
+</body>
+</html>
