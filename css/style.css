@@ -1,53 +1,97 @@
-html {
-	height: 100%;
-	}
-
-body {
-    	display: -webkit-box;
-    	display: -ms-flexbox;
-    	display: flex;             
-	-webkit-box-orient: vertical;             
-	-webkit-box-direction: normal;             
-	-ms-flex-direction: column;             
-	flex-direction: column;
-	background-color: #0d1424;
-	min-height: 100vh;
-	}
+@charset "UTF-8";
+/* CSS Document */
 
 
-/* Mobile Phones */
-@media only screen and (max-width: 599px) {
-	.maximus_show, .medius_show, .minimus_hide, .tiny_hide { 
-	display: none; 
-	}
+
+h1{
 	
-	.pipes_gradient {
-	max-width: 100%;
-	}
+	border: solid;
+	background-color: #E0D4C3;
+	float: center;
+	color: #FFFFFF;
+	font-size: 55px;
+	padding-top: 120;
+	padding-left: 0px;
+	margin-top: 300px;
+}
+
+footer{
+	padding-top: 10px;
+	border:solid;
+	background-color: #9FEB8B;
+	text-align: center;
+	max-width: 100%
+}
+nav ul a {
+	padding:  4.2em;
+
+}
+
+nav{
+	border: solid;
+	border-color: #9FEB8B;
+	width:auto;
+	float: none;
+	padding-right: 50px;
+	justify-content: space-around;
 	
-	.content {
-	min-width: 100%;
-	}
+}
+
+body{
 	
-	p {
-	padding: 0 5%;			
+	background-color: #E0D4C3;
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main{
+	font: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.box{
+	padding-top:1px;
+	height: 600px;
+	background-color: #EBA74D;
+	background-image: url(images/heart.jpg);
+	background-size: cover;
 	}
+
+header img{
 	
-	h1, h2, h3 {
-	padding: 0 5%;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+@media (max-width:768px){
+	h1{
+		font-size:40px;
+		text-align: center;
+		padding-left: 0px;
 	}
-	
-	.footer {
-	max-width: 100%;
+}
+@media (max-width:400px){
+	h1{
+		font-size:20px;
 	}
-	
-	.footer_center {
-	font-size: 10px;
+}
+	height: auto;
+	display: block;
+}
+
+@media (max-width:768px){
+	h1{
+		font-size:40px;
+		text-align: center;
+		padding-left: 0px;
 	}
-	
-	.header {
-	max-width: 100%;
+}
+@media (max-width:400px){
+	h1{
+		font-size:20px;
 	}
+}
 	
 	.header_left {
 	font-size: 12px;
