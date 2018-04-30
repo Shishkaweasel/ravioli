@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CJ's Local Farm</title>
+<link href="aboutus.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<center><img src="images/Banner.png" alt="CJ's Local Farm Banner"></center>
+			<nav>
+				<ul>
+				
+				<center>
+					<a href="index.html">HOME</a>
+					<a href="aboutus.html">ABOUT US</a>
+					<a href="buy.html">BUY</a>
+				</center>
+				</ul>
+			</nav>
+	</header>
+	
+	<main>
+		<div class="box">
+			<h1><center>Humble Beginnings</center></h1>
+			<h2>In 2018 we set a goal to be the best local farm around
+				<br>by giving back to the community
+				<li>We recycle for a better future</li>
+				<li>Half of our proceeds go to charity</li>
+				<li>Events every Saturday for kids</li>
+			</h2>	
+			</div>
+	</main>
+	
+	
+	
+	
+	
+<footer>
+	<center>Here at Cj's we strive for perfection, because <i>good isn't good enough</i>.
+	<pre class="tab"> Phone:(813)555-5555 &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Address:123 Main St. Tampa FL 33663&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; Open every Saturday</pre></center>
+</footer>	
+</body>
+</html>
